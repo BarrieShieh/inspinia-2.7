@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="exploded-war" name="inspinia:war exploded">
+      <output-path>$PROJECT_DIR$/../../../apache-tomcat-8.0.28/webapps/inspinia</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="inspinia" />
+          </element>
+        </element>
+        <element id="javaee-facet-resources" facet="inspinia/web/Web" />
+      </root>
+    </artifact>
+    <artifact type="war" name="inspinia:war">
+      <output-path>$PROJECT_DIR$/out/artifacts/inspinia_war</output-path>
+      <root id="archive" name="inspinia_war.war">
+        <element id="artifact" artifact-name="inspinia:war exploded" />
+      </root>
+    </artifact>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/inspinia.iml" filepath="$PROJECT_DIR$/inspinia.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
